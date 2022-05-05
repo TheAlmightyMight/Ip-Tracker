@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+    <style>
+        #map{
+            /* height:350px;
+            width:350px; */
+            height:100%;
+            width:100%;
+        }
+        .map-container{
+            width:1263px;
+            height:600px;
+        }
+        .map-wrapper{
+            width:100%;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-wrapper">
+            <div class="search__body">
+             <h1 class="body__title">IP Address Tracker</h1>
+             <div class="body__inner">
+                <input class="body__bar" id="search" type="text" placeholder="Search for any IP address or domain">
+                <button id="searchBtn" class="body__btn"></button>
+             </div>
+            </div>
+            <div class="search__lower">
+                <div class="lower__item">
+                    <div class="item__inner">
+                        <h2 class="item__title">IP address</h2>
+                    <p id="ip" class="item__text"></p>
+                    </div>
+                </div>
+                <div class="lower__item">
+                    <div class="item__inner">
+                        <h2 class="item__title">Location</h2>
+                    <div id="location" class="item__text"></div>
+                    </div>
+                </div>
+                <div class="lower__item">
+                    <div class="item__inner">
+                        <h2 class="item__title">Timezone</h2>
+                        <p id="timezone" class="item__text"></p>
+                    </div>
+                </div>
+                <div class="lower__item">
+                    <div class="item__inner">
+                        <h2 class="item__title">Zipcode</h2>
+                        <p id="zipcode" class="item__text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map-wrapper">
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

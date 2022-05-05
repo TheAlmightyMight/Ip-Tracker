@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display&family=Rubik&display=swap');
+
+$main:hsl(0, 0%, 17%);
+$secondary:hsl(0, 0%, 59%);
+$bg:hsla(168, 0%, 94%, 1);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-size:18px;
+    font-family:'Rubik', sans-serif;
+}
+
+.container {
+    height:250px;
+}
+.search-wrapper {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-image: url(/images/pattern-bg.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    height:250px;
+}
+.search__body {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+
+    .body__title{
+        margin-bottom:20px;
+        margin-top:40px;
+    }
+
+    .body__inner{
+        display:flex;
+        margin-top:10px;
+    }
+    .body__bar {
+        height:40px;
+        width:400px;
+        border:none;
+        outline:none;
+        border-radius:10px 0 0 10px;
+        padding-left:10px;
+        font-size:25px;
+    }
+    
+    .body__bar::placeholder {
+        font-size:21px;
+        text-indent:8px;
+    }
+    .body__btn {
+        height:40px;
+        width:50px;
+        border:none;
+        background-color:$main;
+        background-image:url(/images/icon-arrow.svg);
+        background-repeat:no-repeat;
+        background-position:center center;
+        cursor: pointer;
+        border-radius:0 10px 10px 0;
+
+        &:hover{
+            background-color:$secondary;
+            transition:0.2s linear;
+        }
+    }
+}
+
+.search__lower {
+    display:flex;
+    justify-content:center;
+    width:840px;
+    min-height:150px;
+    border-radius:10px;
+    z-index: 10;
+    transform: translateY(40px);
+    padding:1em;
+    background-color:$bg;
+
+    .lower__item {
+        margin-right:15px;
+        text-align:center;
+        width: 200px;
+    
+        &:nth-child(2){
+            border-left:1px solid $secondary;
+        }
+        &:nth-child(3){
+            border-right:1px solid $secondary;
+            border-left:1px solid $secondary;
+        }
+        &:nth-child(4){
+            margin-right:0;
+        }
+
+        .item__title {
+            font-size:14px;
+            font-weight:300;
+            color:$secondary;
+        }
+
+        .item__inner{
+            padding:10px;
+        }
+        .item__text {
+            margin-top: 10px;
+            font-size:20px;
+            font-weight:700;
+        }
+
+        .text__location{
+            text-align:center;
+            word-break:break-all;
+        }
+    }
+}

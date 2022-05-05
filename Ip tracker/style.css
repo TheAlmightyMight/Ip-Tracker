@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&family=Playfair+Display&family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  height: 250px;
+}
+
+.search-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(/images/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+}
+
+.search__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search__body .body__title {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.search__body .body__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.search__body .body__bar {
+  height: 40px;
+  width: 400px;
+  border: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.search__body .body__bar::-webkit-input-placeholder {
+  font-size: 21px;
+  text-indent: 8px;
+}
+
+.search__body .body__bar:-ms-input-placeholder {
+  font-size: 21px;
+  text-indent: 8px;
+}
+
+.search__body .body__bar::-ms-input-placeholder {
+  font-size: 21px;
+  text-indent: 8px;
+}
+
+.search__body .body__bar::placeholder {
+  font-size: 21px;
+  text-indent: 8px;
+}
+
+.search__body .body__btn {
+  height: 40px;
+  width: 50px;
+  border: none;
+  background-color: #2b2b2b;
+  background-image: url(/images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+
+.search__body .body__btn:hover {
+  background-color: #969696;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.search__lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 840px;
+  min-height: 150px;
+  border-radius: 10px;
+  z-index: 10;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  padding: 1em;
+  background-color: #f0f0f0;
+}
+
+.search__lower .lower__item {
+  margin-right: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.search__lower .lower__item:nth-child(2) {
+  border-left: 1px solid #969696;
+}
+
+.search__lower .lower__item:nth-child(3) {
+  border-right: 1px solid #969696;
+  border-left: 1px solid #969696;
+}
+
+.search__lower .lower__item:nth-child(4) {
+  margin-right: 0;
+}
+
+.search__lower .lower__item .item__title {
+  font-size: 14px;
+  font-weight: 300;
+  color: #969696;
+}
+
+.search__lower .lower__item .item__inner {
+  padding: 10px;
+}
+
+.search__lower .lower__item .item__text {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.search__lower .lower__item .text__location {
+  text-align: center;
+  word-break: break-all;
+}
+/*# sourceMappingURL=style.css.map */
