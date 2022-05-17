@@ -50,11 +50,6 @@ const loca = {
     longitude: JSON.parse(lon)
 }
 
-const loca1 = {
-    latitude: JSON.parse(lat1),
-    longitude: JSON.parse(lon1)
-}
-
 const map = L.mapbox.map('map')
 .setView([loca.latitude,loca.longitude], 14)
 .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
