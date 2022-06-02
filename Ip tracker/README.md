@@ -1,4 +1,4 @@
-# Frontend Mentor - IP address tracker
+<h1> Frontend Mentor - IP address tracker </h1>
 
 ![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)
 
@@ -9,4 +9,4 @@
 <p>You can search <b> IP addresses and domains </b> with it. It also stores the inforamtion about the initial location in local storage and has a cool-looking map made with 
   <strong> Leaflet.JS </strong> in order to display it.</p>
   
-<mark> This is Vanilla JavaScript App! </mark>
+<mark style="color:yellow"> This is Vanilla JavaScript App! </mark>
