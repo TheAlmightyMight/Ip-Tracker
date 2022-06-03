@@ -2,7 +2,7 @@
 
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/p6khgutnfr78zbs9kje7.jpg"> </img>
 
-<h2>## Welcome! 👋</h2>
+<h2>Welcome! 👋</h2>
 
 <h3>This is my IP-TRACKER that uses two different APIs to get information about a current user's location.</h3>
 
