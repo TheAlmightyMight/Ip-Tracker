@@ -1,6 +1,6 @@
 <h1> Frontend Mentor - IP address tracker </h1>
 
-![Design preview for the IP address tracker coding challenge](Ip-tracker/design/desktop-design.jpg)
+![Design preview for the IP address tracker coding challenge](/Ip-tracker/design/desktop-design.jpg)
 
 <h2>## Welcome! 👋</h2>
 
