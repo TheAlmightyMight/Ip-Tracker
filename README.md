@@ -1,6 +1,6 @@
 <h1> Frontend Mentor - IP address tracker </h1>
 
-https://github.com/TheAlmightyMight/Ip-Tracker/blob/main/Ip%20tracker/design/desktop-design.jpg
+!https://github.com/TheAlmightyMight/Ip-Tracker/blob/main/Ip%20tracker/design/desktop-design.jpg
 
 <h2>## Welcome! 👋</h2>
 
